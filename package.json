@@ -1,0 +1,28 @@
+{
+  "name": "zomnifer-cli",
+  "version": "1.0.0",
+  "description": "Delay shutdown/sleep/alert on your computer from cli",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "bin": {
+    "zomnifer": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benavern/zomnifer-cli.git"
+  },
+  "keywords": [
+    "shutdown",
+    "sleep",
+    "alert",
+    "cli"
+  ],
+  "author": "Benjamin Caradeuc <benjamin@caradeuc.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benavern/zomnifer-cli/issues"
+  },
+  "homepage": "https://github.com/benavern/zomnifer-cli#readme"
+}
