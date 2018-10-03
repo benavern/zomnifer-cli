@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/benavern/zomnifer-cli/issues"
   },
-  "homepage": "https://github.com/benavern/zomnifer-cli#readme"
+  "homepage": "https://github.com/benavern/zomnifer-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.2.0"
+  }
 }
