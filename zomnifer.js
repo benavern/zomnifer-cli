@@ -1,12 +1,11 @@
 const clean = require('./lib/clean')
 const inquirer = require('./lib/inquirer')
+const actions = require('./lib/actions')
 
 module.exports = async os => {
-  clean({stage: 'home'})
-  const choice = await inquirer.chooseAction()
+  clean('Action')
+  const { action } = await inquirer.chooseAction()
 
-  // TODO: the actual app code...
-
-  clean({stage: 'end'})
-  console.log(choice)
+  clean(action)
+  actions[action].run()
 }
