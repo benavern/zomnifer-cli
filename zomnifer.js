@@ -8,7 +8,7 @@ module.exports = async os => {
   const { action } = await chooseAction()
 
   clean(action)
-  await actions[action].run()
+  await actions[action].run(os)
 
   clean('Again ?', true)
   const { again } = await runAgain()
