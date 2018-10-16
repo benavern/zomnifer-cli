@@ -3,7 +3,7 @@ const chalk = require('chalk')
 const zomnifer = require('./zomnifer')
 
 const os = process.platform
-const compatibleOss = ['linux']
+const compatibleOss = ['linux', 'win32', 'darwin']
 
 const run = async system => {
   const again = await zomnifer(system)
