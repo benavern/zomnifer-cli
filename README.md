@@ -1,6 +1,10 @@
 # Zomnifer CLI
 
-> Delay shutdown/sleep/alert on your computer from cli
+> Delayed shutdown / restart / sleep / notify on your computer from cli
+
+## Screenshot
+
+![Zomnifer Screenshot](./screenshots/screenshot.jpeg)
 
 ## How To
 
